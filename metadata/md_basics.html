@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US"> <!-- The primary language can be set in the <html> tag -->
+
+    <head>
+        <!-- Standard metadata -->
+        <meta charset="utf-8"> <!-- Sets the character set being used -->
+        <title>Metadata Basics</title> <!-- Sets the title of the page -->
+        <meta name="author" content = "MattSHarker"> <!-- Says who is the author of the page -->
+        <meta name="decsription" content="This is a page that is
+            being used to learn about how the header in HTML
+            documents works."> <!-- This is what shows when the webpage is googled -->
+
+
+
+        <!-- Examples of the Open Graph Data metadata protocol made by Facebook -->
+        <meta property="og:image" content="https://i.redd.it/webxepy7yur21.jpg">
+            <!-- Creates an image when a link to the page is posted on Facebook -->
+
+        <meta property="og:decsription" content="This is a page that is
+            being used to learn about how the header in HTML documents works.">
+            <!-- The description that goes along with the above picture -->
+
+        <meta property="og:title" content="MattSHarker: Metadata Basics">
+            <!-- The title of the link -->
+
+        <!-- Twitter has its own similar metadata -->
+        <meta name="twitter:title" contnet="MattSHarker: Metadata Basics">
+
+
+
+        <!-- facicon (Favorites icon) is the icon used when creating a bookmark -->
+        <link rel="shortcut icon" href="favicons/html5.ico" type="image/x-icon">
+            <!-- Requires an image in the same or specified directory -->
+            <!-- There are also many other icons nowadays, but those are for learning later -->
+
+
+
+        <!-- Sets the CSS of the webpage -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <!-- header -->
+        <h1>This is my page about the basics of metadata</h1>
+
+        <!-- main content -->
+        <p> Japanese example: ご飯が熱い。This will display properly if
+            the charset in the head is set to utf-8.
+        </p>
+
+        <!-- How to change the language mid document -->
+        <p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
+            <!-- Refer to the ISO 639-1 standard for list of language codes -->
+        
+        <!-- Applies Javascript to the webpage -->
+        <!-- It's usually best to put a script right before the closing body tag -->
+        <script src="javascript/script.js">
+            // A script can go here instead of in the element itself as well
+        </script>
+
+    </body>
+</html>
